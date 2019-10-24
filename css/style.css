@@ -1,11 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
-.content {
-    padding-top: 60px;
-}
-
 .nav-item {
     padding: 0 10px;
     margin: 0 10px;
@@ -13,7 +8,6 @@ body {
 .nav-item.active {
     font-weight: 700;
 }
-
 .featured-link {
     border-radius: 5px;
 }
@@ -23,8 +17,32 @@ body {
 .section-div {
     margin-top: 100px !important;
 }
+.navbar {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+.navbar-hide {
+    pointer-events: none;
+    opacity: 0;
+}
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+.form-control:focus{
+    background-color:#ffffff !important;
+    box-shadow: none !important;
+}
+.jumbotron{
+    padding: 150px 0;
+    border-radius: 0;
+}
 
 @media (max-width: 575px) {
+    .jumbotron{
+        padding: 100px 0;
+    }
     .display-4, h1 {
         font-size: 2rem;
     }
