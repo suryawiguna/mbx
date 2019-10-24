@@ -17,7 +17,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top py-3">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.php">
                 <img src="img/logo1.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 <span class="font-weight-bold">MBX</span>
             </a>
@@ -27,10 +27,10 @@
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item my-lg-0 my-2 active">
-                        <a class="nav-link text-center text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-center text-white" href="index.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item my-lg-0 my-2">
-                        <a class="nav-link text-center text-white" href="#">Buy PIN</a>
+                        <a class="nav-link text-center text-white" href="pin.php">Buy PIN</a>
                     </li>
                     <li class="nav-item my-lg-0 my-2">
                         <a class="nav-link text-center text-white" href="login.php">Login Member</a>
@@ -58,7 +58,9 @@
         <div class="container">
             <div class="row section-div">
                 <div class="col-lg-5">
-                    <img src="img/chart.jpeg" class="rounded" alt="" width="100%">
+                    <a href="#" class="pop">
+                        <img src="img/chart.jpeg" class="rounded" alt="" width="100%">
+                    </a>
                 </div>
                 <div class="col-lg-7 px-auto px-lg-5 d-flex flex-column align-self-center">
                     <h1 class="display-5 mt-4 mt-lg-0 font-weight-bold">We have what you're looking for</h1>
@@ -104,10 +106,14 @@
                     <h1 class="text-center font-weight-bold mb-4">How To Register and Buy PIN?</h1>
                 </div>
                 <div class="col-lg-6 my-2 my-lg-0">
-                    <img src="img/WhatsApp Image 2018-11-27 at 16.15.28.jpeg" alt="" width="100%">
+                    <a href="#" class="pop">
+                        <img src="img/WhatsApp Image 2018-11-27 at 16.15.28.jpeg" alt="" width="100%">
+                    </a>
                 </div>
                 <div class="col-lg-6 my-2 my-lg-0">
-                    <img src="img/WhatsApp Image 2018-11-27 at 16.14.24.jpeg" alt="" width="100%">
+                    <a href="#" class="pop">
+                        <img src="img/WhatsApp Image 2018-11-27 at 16.14.24.jpeg" alt="" width="100%">
+                    </a>
                 </div>
             </div>
             <div class="row section-div justify-content-center">
@@ -115,21 +121,40 @@
                     <h1 class="text-center font-weight-bold mb-4">Our Products and Services</h1>
                 </div>
                 <div class="col-lg-4 my-2">
-                    <img src="img/my-box-social-media.jpeg" alt="" width="100%">
+                    <a href="#" class="pop">
+                        <img class="img-cover" src="img/my-box-social-media.jpeg" alt="" width="100%">
+                    </a>
                 </div>
                 <div class="col-lg-4 my-2">
-                    <img src="img/mbx-mall.jpeg" alt="" width="100%">
+                    <a href="#" class="pop">
+                        <img class="img-cover" src="img/mbx-mall.jpeg" alt="" width="100%">
+                    </a>    
                 </div>
                 <div class="col-lg-4 my-2">
-                    <img src="img/mbx-mall2.jpeg" alt="" width="100%">
+                    <a href="#" class="pop">
+                        <img class="img-cover" src="img/mbx-mall2.jpeg" alt="" width="100%">
+                    </a>
                 </div>
                 <div class="col-lg-4 my-2">
-                    <img src="img/promo-50-pin-get-10-pin.jpeg" alt="" width="100%">
+                    <a href="#" class="pop">
+                        <img class="img-cover" src="img/promo-50-pin-get-10-pin.jpeg" alt="" width="100%">
+                    </a>
                 </div>
                 <div class="col-lg-4 my-2">
-                    <img src="img/mbx-mall3.jpeg" alt="" width="100%">
+                    <a href="#" class="pop">
+                        <img class="img-cover" src="img/mbx-mall3.jpeg" alt="" width="100%">
+                    </a>
                 </div>
                 <div class="col-lg-4 my-2">
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">              
+                    <div class="modal-body p-0">
+                        <img src="" class="imagepreview" style="width: 100%;" >
+                    </div>
                 </div>
             </div>
         </div>
@@ -160,5 +185,14 @@
             <small class="m-0 text-center">Copyright © Mybox. All rights reserved PT. MITRA BISNIS EKSEKUTIF</small>
         </div>
     </div>
-    </body>
+    <script>
+        $(function() {
+            $('.pop').on('click', function() {
+                event.preventDefault();
+                $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+                $('#imagemodal').modal('show');   
+            });
+        });
+    </script>
+</body>
 </html>
