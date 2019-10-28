@@ -120,32 +120,49 @@
                 <div class="col-12">
                     <h1 class="text-center font-weight-bold mb-4">Our Products and Services</h1>
                 </div>
-                <div class="col-lg-4 my-2">
-                    <a href="#" class="pop">
-                        <img class="img-cover" src="img/my-box-social-media.jpeg" alt="" width="100%">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="#" class="pop">
+                                <img src="img/my-box-social-media.jpeg" class="d-block w-100">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#" class="pop">
+                                <img src="img/mbx-mall.jpeg" class="d-block w-100">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#" class="pop">
+                                <img src="img/mbx-mall2.jpeg" class="d-block w-100">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#" class="pop">
+                                <img src="img/promo-50-pin-get-10-pin.jpeg" class="d-block w-100">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#" class="pop">
+                                <img src="img/mbx-mall3.jpeg" class="d-block w-100">
+                            </a>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
                     </a>
-                </div>
-                <div class="col-lg-4 my-2">
-                    <a href="#" class="pop">
-                        <img class="img-cover" src="img/mbx-mall.jpeg" alt="" width="100%">
-                    </a>    
-                </div>
-                <div class="col-lg-4 my-2">
-                    <a href="#" class="pop">
-                        <img class="img-cover" src="img/mbx-mall2.jpeg" alt="" width="100%">
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
                     </a>
-                </div>
-                <div class="col-lg-4 my-2">
-                    <a href="#" class="pop">
-                        <img class="img-cover" src="img/promo-50-pin-get-10-pin.jpeg" alt="" width="100%">
-                    </a>
-                </div>
-                <div class="col-lg-4 my-2">
-                    <a href="#" class="pop">
-                        <img class="img-cover" src="img/mbx-mall3.jpeg" alt="" width="100%">
-                    </a>
-                </div>
-                <div class="col-lg-4 my-2">
                 </div>
             </div>
         </div>
