@@ -33,7 +33,7 @@
                         <a class="nav-link text-center text-white" href="pin.php">Buy PIN</a>
                     </li>
                     <li class="nav-item my-lg-0 my-2">
-                        <a class="nav-link text-center text-white" href="login.php">Login Member</a>
+                        <a class="nav-link text-center text-white" href="#" data-toggle="modal" data-target="#login-modal">Login Member</a>
                     </li>
                     <li class="nav-item my-lg-0 my-2 featured-link bg-warning">
                         <a class="nav-link text-center text-white" href="register.php">Register</a>
@@ -163,6 +163,27 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">              
+                    <div class="modal-body p-5">
+                        <h5 class="text-center mt-2 mb-0 font-weight-bold mb-4 mt-0">Login Member</h5>
+                        <form method="POST" action="" aria-label="">
+                            <div id="form-div" class="d-flex flex-column p-0 mb-4">
+                                <small>Email</small>
+                                <input type="email" class="form-control bg-light" name="email" placeholder="email@example.com" required autofocus>
+                            </div>
+                            <div id="form-div" class="d-flex flex-column p-0 mb-4">
+                                <small>Password</small>
+                                <input type="password" class="form-control bg-light" name="password" placeholder="............." required>
+                            </div>
+                            <button type="submit" id="btn-login" class="btn btn-block btn-lg bg-primary text-white font-weight-bold m-0"><i class="mdi mdi-login-variant mr-1"></i>Login</button>
+                        </form>
+                        <a href="register.php" class="btn btn-sm btn-block btn-outline-warning font-weight-bold mt-2">Register</a>
+                    </div>
                 </div>
             </div>
         </div>
