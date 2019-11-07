@@ -57,6 +57,11 @@
         </div>
         <div class="container">
             <div class="row section-div">
+            <video width="100%" controls autoplay>
+                <source src="vid/Mitra Bisnis Eksekutif.mp4" type="video/mp4">
+            </video>
+            </div>
+            <div class="row section-div">
                 <div class="col-lg-5">
                     <a href="#" class="pop">
                         <img src="img/chart.jpeg" class="rounded" alt="" width="100%">
