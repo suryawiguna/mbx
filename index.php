@@ -62,18 +62,30 @@
             </video>
             </div>
             <div class="row section-div">
-                <div class="col-lg-5">
+                <div class="col-lg-6">
                     <a href="#" class="pop">
-                        <img src="img/chart.jpeg" class="rounded" alt="" width="100%">
+                        <img src="img/new/1.jpg" class="d-block w-100">
                     </a>
                 </div>
-                <div class="col-lg-7 px-auto px-lg-5 d-flex flex-column align-self-center">
-                    <h1 class="display-5 mt-4 mt-lg-0 font-weight-bold">We have what you're looking for</h1>
-                    <p>From social media, mall, to online transport, and ticketing. Solve your problems with our services.</p>
+                <div class="col-lg-6">
+                    <a href="#" class="pop">
+                        <img src="img/new/2.jpg" class="d-block w-100">
+                    </a>
                 </div>
             </div>
             <div class="row section-div">
-                <div class="col-lg-4">
+                <div class="col-lg-5">
+                    <a href="#" class="pop">
+                        <img src="img/new/3.png" class="rounded" alt="" width="100%">
+                    </a>
+                </div>
+                <div class="col-lg-7 px-auto px-lg-5 d-flex flex-column align-self-center">
+                    <h1 class="display-5 mt-4 mt-lg-0 font-weight-bold">MBX Ecosystem</h1>
+                    <p>MBX merupakan sosial media, yang dimana di dalam satu aplikasi sosial media tersebut tersedia market place yang di buat unik dan dapat memenuhi kebutuhan sehari-hari dari masyarakat</p>
+                </div>
+            </div>
+            <div class="row section-div">
+                <div class="col-lg-6">
                     <div class="card p-2 my-2 my-lg-0 border-0 rounded-lg bg-danger">
                         <div class="card-body text-white">
                             <h3 class="card-title font-weight-bold">Visi MBX</h3>
@@ -81,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="card p-2 my-2 my-lg-0 border-0 rounded-lg bg-warning">
                         <div class="card-body text-white">
                             <h3 class="card-title font-weight-bold">Misi MBX</h3>
@@ -92,17 +104,138 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card p-2 my-2 my-lg-0 border-0 rounded-lg bg-primary">
-                        <div class="card-body text-white">
-                            <h3 class="card-title font-weight-bold">Program MBX</h3>
-                            <ol>
-                                <li class="card-text">Membangun komunitas bisnis yang kuat dalam program networking</li>
-                                <li class="card-text">Menggandeng merchant dari berbagai lini bisnis dan UMKM di dunia</li>
-                                <li class="card-text">Menyediakan layanan jasa dan produk berkualitas yang menjadi kebutuhan pokok masyarakat, sehingga menguatkan kesejahteraan ekonomi dalam komunitas MBX</li>
-                                <li class="card-text">Mengedukasi masyarakat tentang digital entrepreneurship dalam komunitas MBX</li>
-                            </ol>
+            </div>
+            <div class="row section-div">
+                <div class="col">
+                    <a href="#" class="pop">
+                        <img src="img/new/4.jpg" class="rounded" alt="" width="100%">
+                    </a>
+                </div>
+            </div>
+            <div class="row section-div justify-content-center">
+                <div class="col-12">
+                    <h1 class="text-center font-weight-bold mb-4">Features of MBX</h1>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card p-2 my-2 my-lg-0 rounded-lg bg-white">
+                        <div class="card-body text-dark">
+                            <h3 class="card-title font-weight-bold text-center mb-5">Online</h3>
+                            <div class="row">
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/mbx_sosmed.jpg" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/mbx_mall.png" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/mbx_go.png" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/mytrip.png" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/intaromax.png" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/uvid.png" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/mbx_resto.png" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/melali.png" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card p-2 my-2 my-lg-0 rounded-lg bg-white">
+                        <div class="card-body text-dark">
+                            <h3 class="card-title font-weight-bold text-center mb-5">Offline</h3>
+                            <div class="row">
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/xpoint.png" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/xpose.png" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/minimall_concept1.jpg" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/minimall_concept2.jpg" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/adventure.jpg" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/the_sandi_resort.png" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/in_beauty.png" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-6 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/be_happy.jpg" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a href="#" class="pop">
+                                        <img src="img/new/merchant_mbx.jpg" class="rounded" alt="" width="100%">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row section-div justify-content-center">
+                <div class="col-lg-6">
+                    <h5 class="text-center font-weight-bold mb-4">Sistem Pembayaran Menggunakan Uang Digital "INTARO"</h5>
+                    <a href="#" class="pop">
+                        <img src="img/new/intaro.png" class="rounded" alt="" width="100%">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <h5 class="text-center font-weight-bold mb-4">Dompet digital yang dipakai untuk menyimpan saldo intaro, penukaran intaro ke rupah dan juga sebaliknya dinamakan “WinnerBank”</h5>
+                    <div class="d-flex flex-row ">    
+                        <a href="#" class="pop">
+                            <img src="img/new/winner_bank.png" class="rounded" alt="" width="100%">
+                        </a>
+                        <a href="#" class="pop">
+                            <img src="img/new/winner_bank2.jpg" class="rounded" alt="" width="100px">
+                        </a>
                     </div>
                 </div>
             </div>
