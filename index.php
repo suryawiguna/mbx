@@ -15,19 +15,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <style>
         #rotate {
-            animation-name: spin;
-            animation-duration: 5000ms;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear; 
+            animation: rotation 1s infinite linear;
         }
         
-        @keyframes spin {
-            from {
-            transform: rotate(0deg);
-            }
-            to {
-            transform: rotate(-359deg);
-            }
+        @keyframes rotation {
+            100%{ transform:rotatey(360deg); }
         }
     </style>
 </head>
